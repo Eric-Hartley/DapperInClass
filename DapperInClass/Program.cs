@@ -19,7 +19,7 @@ namespace DapperInClass
 
             var repo = new DepartmentRepository(conn);
             var departments = repo.GetAllDepartments();
-            repo.GetAllDepartments();
+            
 
             foreach(var dept in departments)
             {
